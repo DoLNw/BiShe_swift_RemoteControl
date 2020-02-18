@@ -1,0 +1,14 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AlicloudPush/push" "${PODS_ROOT}/AlicloudUT/ut" "${PODS_ROOT}/AlicloudUTDID/utdid" "${PODS_ROOT}/AlicloudUtils/utils" "${PODS_ROOT}/IMSLog/IMSLog" "${PODS_ROOT}/IotLinkKit/iot-linkkit"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BulletinBoard"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BulletinBoard" "${PODS_CONFIGURATION_BUILD_DIR}/Cards" "${PODS_CONFIGURATION_BUILD_DIR}/Comets" "${PODS_CONFIGURATION_BUILD_DIR}/Player"
+OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/BulletinBoard/BLTNBoard.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/Cards/Cards.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/Comets/Comets.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/Player/Player.modulemap"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"BulletinBoard" -l"Cards" -l"Comets" -l"Player" -l"resolv" -l"sqlite3.0" -l"stdc++" -l"z" -framework "AlicloudUtils" -framework "AlinkIoTExpress" -framework "AlinkMobileGateway" -framework "CloudPushSDK" -framework "CoreTelephony" -framework "Foundation" -framework "IMSLog" -framework "IotLinkKit" -framework "SystemConfiguration" -framework "UIKit" -framework "UTDID" -framework "UTMini"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/BulletinBoard/BLTNBoard.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/Cards/Cards.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/Comets/Comets.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/Player/Player.modulemap"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BulletinBoard" "${PODS_CONFIGURATION_BUILD_DIR}/Cards" "${PODS_CONFIGURATION_BUILD_DIR}/Comets" "${PODS_CONFIGURATION_BUILD_DIR}/Player"
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

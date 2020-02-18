@@ -1,0 +1,1998 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0883074DEB508458C174DE306B480284 /* AlicloudUTDID */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C4290A39AD5E43D6DBB3E91D47505037 /* Build configuration list for PBXAggregateTarget "AlicloudUTDID" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = AlicloudUTDID;
+			productName = AlicloudUTDID;
+		};
+		A2A523E6D90FF53AA039C147829BDA15 /* IMSLog */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 176836D94A34801FF257515CF1A8E5BC /* Build configuration list for PBXAggregateTarget "IMSLog" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = IMSLog;
+			productName = IMSLog;
+		};
+		C508EB37C9C701BDBDF2992EE93AA08C /* AlicloudPush */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C61CD500370045F7670EE7C401490DD4 /* Build configuration list for PBXAggregateTarget "AlicloudPush" */;
+			buildPhases = (
+			);
+			dependencies = (
+				A1E1319FB01A9C4693509AC98873AE6C /* PBXTargetDependency */,
+				25C9BC787236994239B50F538E1CADA0 /* PBXTargetDependency */,
+			);
+			name = AlicloudPush;
+			productName = AlicloudPush;
+		};
+		DD99D8E362F7950F06AD0A963460E834 /* AlicloudUtils */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6E16BDFF6A5F6C4DEB7F4CB5948D3AE0 /* Build configuration list for PBXAggregateTarget "AlicloudUtils" */;
+			buildPhases = (
+			);
+			dependencies = (
+				4510567580E58742F2572B1B9787B2BE /* PBXTargetDependency */,
+			);
+			name = AlicloudUtils;
+			productName = AlicloudUtils;
+		};
+		E9E6A901E448660EFF3445A118182C28 /* AlicloudUT */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E7DA03D1821F2E713108689AA4FDA0D8 /* Build configuration list for PBXAggregateTarget "AlicloudUT" */;
+			buildPhases = (
+			);
+			dependencies = (
+				3FE1107E5F8075FC0B653B310D498E9D /* PBXTargetDependency */,
+			);
+			name = AlicloudUT;
+			productName = AlicloudUT;
+		};
+		F4FBE466B0DF6B7512E21301739DB3A3 /* IotLinkKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 57AF347051620A31F46CBF1E384D4522 /* Build configuration list for PBXAggregateTarget "IotLinkKit" */;
+			buildPhases = (
+			);
+			dependencies = (
+				E29665FA91334BADF1DCE1DC43C58437 /* PBXTargetDependency */,
+			);
+			name = IotLinkKit;
+			productName = IotLinkKit;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0508F5B2551E0CA888C4E1CB854D7196 /* BulletinCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B6DA874280989A4EDC8882CC163408 /* BulletinCloseButton.swift */; };
+		05174A0F443042B1585616DD1ED629BA /* BLTNItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A9FDE34A194B7E9062AE9AD6476FA /* BLTNItemManager.swift */; };
+		0AD2D0C1FC548EDFFFB827DD3E799B5F /* Comets-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 564439730CFE20FF49FFBA745B3452B9 /* Comets-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0ED466E095E48D0B9A54BFE80CA863D1 /* Comet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B5329FF10D529C219452A7DD129F5 /* Comet.swift */; };
+		0F62F11DE8D1EEE395BD37F56D476A3F /* BLTNBoardSwiftSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB010766D687BF304B698AE54E95804 /* BLTNBoardSwiftSupport.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		15D6320A0C540CD302886594035B51E7 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A7FFE4465DBC65915532059BCDB78A /* ActivityIndicator.swift */; };
+		225D86E17CF287034C8843E9A1E0F472 /* BulletinSwipeInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9120C447F9CD33AE1D35C11B64CCC3AD /* BulletinSwipeInteractionController.swift */; };
+		2656E8529FEBB6562E29A32BCCA301CA /* Comets-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E995742F75EE0C9BD21C40AACDBDFF3 /* Comets-dummy.m */; };
+		297B697357E836FB0E3F031B5B78E5A6 /* BLTNPageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CFF68434D7E999E8C2DEED4BD43BDB /* BLTNPageItem.m */; };
+		2E8B278F6FB871F038ABD7565CE9D091 /* UIButton+BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EA9A8E0F540DBF871E5C42B421837A /* UIButton+BackgroundColor.swift */; };
+		3144CCD1592E414E7C5398FDB920BA7E /* Highlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602E8FE110246E9E01ADCF5F85D8DCA1 /* Highlighter.swift */; };
+		374FC383BE2AD5D66D66D1964D260EE0 /* BLTNActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B13FABFAFF5A0F7C2F1B6E5F0BFD678E /* BLTNActionItem.m */; };
+		3ADD7CFD50F5E5E8ABF4C00AF9E6196B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BA34D8265FE70215462CDCED5E55AD /* Player.swift */; };
+		3AF43E23472DDAD1D2F952A08EC999B9 /* BLTNTitleLabelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E354A2037029B642F701F8A1559B86F5 /* BLTNTitleLabelContainer.swift */; };
+		3C2794A27858599983EF055AB17790C1 /* UIView+RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC66DC4326E0A08FD963D8E757E43FE /* UIView+RoundedView.swift */; };
+		443BB25DE08531AA8E686887865C02B5 /* BLTNContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3F6D3D757D7F2AE73D06DE4CFDE76B /* BLTNContainerView.swift */; };
+		465EAAA489B18D72917068594654DE3A /* Player-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CFF896FB0E8EB2DEC80B9EDF259EA0A /* Player-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50050046451C84841B7B0B2902195F2C /* BLTNViewPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12AF893189B5195F74AB1E7DEE57697 /* BLTNViewPosition.swift */; };
+		51536B5338C2332B1DDEB542A521D382 /* BLTNInterfaceBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16E3D42F98CDA915B19E925CDB3D0BA /* BLTNInterfaceBuilder.swift */; };
+		55B331C4AD049E0A2D6DCFA68247605F /* LayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD72614C2B1B319B86BB4D9012DC8AD /* LayoutHelper.swift */; };
+		6334AB110541A2E11A61E8D4DE5548E1 /* BLTNActionItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E0720869AE56E49DF45EE0CB63256F6A /* BLTNActionItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		64898AF7427BBCA9C5462FD8E6700513 /* CardPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB014CF0AF7D9A04CCED078073894A4 /* CardPlayer.swift */; };
+		6835BEA717B4AE6514AA5CF6FB4A1185 /* BulletinPresentationAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D87D1E9F6F29199CCB0DCB5582D33F /* BulletinPresentationAnimationController.swift */; };
+		6EF3EDD66D70031AC7234D0B7A38549A /* RoundedViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE45446DFAB711EC8D5DC7F5996867BF /* RoundedViewProtocol.swift */; };
+		6FD3998E1FB807EB7C3E56AEB16EDFB1 /* CardGroupSliding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B7DDBBC262A372988B8C65B35CEDC /* CardGroupSliding.swift */; };
+		706ED8C29CEA46B68B982B0D83603009 /* UIColor+Luminance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AAAE80D4C23E3432B891A3D5D9315B /* UIColor+Luminance.swift */; };
+		70ACA6AB22C530ADFDB6AB7DE94D48B9 /* HighlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8470999E8B421E8163C1EC9047C5CC8 /* HighlightButton.swift */; };
+		778126FDD5AE041D4652243D35C29713 /* AnimationChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E62A3CC88BE7449AAFB57A00959E2 /* AnimationChain.swift */; };
+		8D64C5619224DF3D7520D2765CE864E6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C656A458A79DB2FB5D99D38362A3D92F /* DetailViewController.swift */; };
+		947EE40F094640F0CDAF3E46A26586CF /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4F019A3FCC585A62A0BFD08DEE2929 /* Card.swift */; };
+		9D1B18F8D75B9FB576DBF13B8C7C621E /* BulletinBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0721BCA517B7A8DDB52E31138B7E883E /* BulletinBackgroundView.swift */; };
+		9F76AAF3AE2AFB3C782BB1E23FCE9A17 /* BLTNHighlightButtonWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D192F6BFBAF876130F17C401A75DC1 /* BLTNHighlightButtonWrapper.swift */; };
+		A0A5A2CF27DE2E3A61EA59B722571415 /* BLTNSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8F040CD6346C1F61E31C204AAAAC0 /* BLTNSpacing.swift */; };
+		A1BC02D65F005935DD2F2B3937F4218E /* BLTNItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A65345746D1B5AAF2AB6C1074DA8887F /* BLTNItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A1C44BCE504CF833F5343D0D3E43F18E /* BLTNBackgroundViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3152FD9912205286695941E538B47DFF /* BLTNBackgroundViewStyle.swift */; };
+		A374495FDD077EF8B6DE4CCD0130DFB4 /* CardArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB32A133D0903C6F00B082DA509031A2 /* CardArticle.swift */; };
+		A572E14EBD82366B37834C97FE0C13E5 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01899BD7C5FD8547EE84369A255836C8 /* Animator.swift */; };
+		A5956ADFD5170C5B72E79E320C41F5CD /* BLTNPageItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DA76DB955AE4FB9894B1E1E5D9B97EB7 /* BLTNPageItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A965974AE941118556FD7AD3E3C3C5FF /* BLTNBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FEF4CE897B8609E67756A2A8DE35A9A /* BLTNBoard.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC93EFAB0A86D18C6C1DFAC7D71AC31E /* UIView+SafeAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AD573AEADD6343259218D38D683D2 /* UIView+SafeAnchors.swift */; };
+		AEDD15A982716DA35682B7519809F320 /* BulletinBoard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 487CCC17E2A01ABCFDCF1FC03D3E35D0 /* BulletinBoard-dummy.m */; };
+		BA43F0B9EC100B910E2AFB363344C403 /* BulletinDismissAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6036075F0044100023CD353C12C5C1E /* BulletinDismissAnimationController.swift */; };
+		BD3C906E06B2310341F2D2EF5462E137 /* CardHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD24893074205E0779D0CD6AA57752B /* CardHighlight.swift */; };
+		C0738AB8656F135C755108F8DC5B2169 /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E446E49954BA4CF768089EAAC6EF /* Deprecations.swift */; };
+		C41ED9BFD10AF7928503BB7D751B12AD /* BulletinBoard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 112FA8CF52202A901FF352F8535FB901 /* BulletinBoard-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C8D99AC3CA39037032A0849616D7CA2C /* BulletinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9762A3A79603B085B077B68004BD85CA /* BulletinViewController.swift */; };
+		C9478EE67CB96ED07F26772B4BCEC870 /* Cards-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C5C62E29B03F9E421FE2D2227AB3796 /* Cards-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA95D8FB7ED157459DD50CCC2B66D6D0 /* UIImage+Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70E3C0450EFBE4879D56A95FA8D497D /* UIImage+Rotate.swift */; };
+		D1CB5CF6F09523CE5F750C59B7BD1353 /* CardGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6818F9E6E552891C8ECDCC3E1772F847 /* CardGroup.swift */; };
+		D2E0B3F23043EF96AE581E4B4EA84385 /* Pods-远程控制-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 569EFA11109A3B39CD382A8CA698FC48 /* Pods-远程控制-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D825ACCDC8D52AE8EF97D11CD11EA3A7 /* BLTNItemAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6398B95155C276BFB8116DBC77CA21 /* BLTNItemAppearance.swift */; };
+		E2EFB9D18E49A79C49626D65C9E705A5 /* Cards-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C19CC3AB47F61E234262E6E3D064AA2 /* Cards-dummy.m */; };
+		E7E60CB4545ED086FDA1067771C8750C /* Pods-远程控制-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2940B648125C967645ECE5EC55BCD17 /* Pods-远程控制-dummy.m */; };
+		EDC3915232E98719430E70B596BE1B0B /* ContinuousMaskLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DFE76DA6EA4057854D05818F31323F /* ContinuousMaskLayer.swift */; };
+		F925558974EBE5C213358DA431AA64CE /* Player-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4233FD7966CCA63F1B065F5CA90A19DB /* Player-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B7129BCDC03DB8C1392F03405950C49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD99D8E362F7950F06AD0A963460E834;
+			remoteInfo = AlicloudUtils;
+		};
+		2BBFBC915347D24692253BB4D6C01CA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CBE366D25C3692AAE548A9B678264C8;
+			remoteInfo = BulletinBoard;
+		};
+		2DA48088CCF21C498984F6ED95B10AF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0883074DEB508458C174DE306B480284;
+			remoteInfo = AlicloudUTDID;
+		};
+		38588BAE90C3EFBEDF75A9D99A98D825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2A523E6D90FF53AA039C147829BDA15;
+			remoteInfo = IMSLog;
+		};
+		4066DEF5DA5B3EFD56B8D872A87D2590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0883074DEB508458C174DE306B480284;
+			remoteInfo = AlicloudUTDID;
+		};
+		4126CFAF285136695A28183F7E48E761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95686D88267B7D426C897EA9E91FC217;
+			remoteInfo = Cards;
+		};
+		7E3A92943A5B9EB120C9AB972F0564BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0883074DEB508458C174DE306B480284;
+			remoteInfo = AlicloudUTDID;
+		};
+		8E70E93B58E3F33B634A438520F89831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4FBE466B0DF6B7512E21301739DB3A3;
+			remoteInfo = IotLinkKit;
+		};
+		90ED5690E47E5A418873356F0DA9E966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2A523E6D90FF53AA039C147829BDA15;
+			remoteInfo = IMSLog;
+		};
+		93F91A541B77E708EAEF8E1A141B2043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3566CE7721250363BAE931141A0703B1;
+			remoteInfo = Player;
+		};
+		A660FB87F4EEF8515C0D6D7A775ED621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C508EB37C9C701BDBDF2992EE93AA08C;
+			remoteInfo = AlicloudPush;
+		};
+		AFD9D0D8A7E981AF25039A70189D1CFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9E6A901E448660EFF3445A118182C28;
+			remoteInfo = AlicloudUT;
+		};
+		D7527743C3EB8A8911BB6A514644561A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD99D8E362F7950F06AD0A963460E834;
+			remoteInfo = AlicloudUtils;
+		};
+		EF4B90C9AFA6AC7E73503B4CECDBF0C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9E6A901E448660EFF3445A118182C28;
+			remoteInfo = AlicloudUT;
+		};
+		F235161400852B4F8761ACA84F9DA601 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3566CE7721250363BAE931141A0703B1;
+			remoteInfo = Player;
+		};
+		FBE53F6F1B6C2001CA15D18B5FEAB44C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 125B6FEA16CD0511AAB23164F8FDFACD;
+			remoteInfo = Comets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01899BD7C5FD8547EE84369A255836C8 /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = Cards/Sources/Animator.swift; sourceTree = "<group>"; };
+		0590D744FB8B0F97C321A63DDCEA0367 /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = id.lproj; path = Resources/Strings/id.lproj; sourceTree = "<group>"; };
+		0721BCA517B7A8DDB52E31138B7E883E /* BulletinBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulletinBackgroundView.swift; path = Sources/Support/Views/Internal/BulletinBackgroundView.swift; sourceTree = "<group>"; };
+		07AAAE80D4C23E3432B891A3D5D9315B /* UIColor+Luminance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Luminance.swift"; path = "Sources/Support/Helpers/UIColor+Luminance.swift"; sourceTree = "<group>"; };
+		0A88BF3477AB59CFA8D1E1CDC17CB1B7 /* CloseGlyph.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = CloseGlyph.png; path = Resources/CloseGlyph.png; sourceTree = "<group>"; };
+		112FA8CF52202A901FF352F8535FB901 /* BulletinBoard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BulletinBoard-umbrella.h"; sourceTree = "<group>"; };
+		126E283A7AC4881FE498DE603A403BC9 /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = utdid/UTDID.framework; sourceTree = "<group>"; };
+		16B17E30AC97CDB5C71C8600B968D1C6 /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = hu.lproj; path = Resources/Strings/hu.lproj; sourceTree = "<group>"; };
+		16C04DBFA4FC3A924EC442136B11762C /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = it.lproj; path = Resources/Strings/it.lproj; sourceTree = "<group>"; };
+		1B69167355EB11135B267EEBC49E1B31 /* Cards-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cards-prefix.pch"; sourceTree = "<group>"; };
+		1D8FC69E2C1BD17A8E9BA5C805B0A94B /* Cards.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cards.xcconfig; sourceTree = "<group>"; };
+		2106D2E391B766F728678D6C93ABE467 /* libComets.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComets.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		24EB2F1E4F4C91FC82DC08BD75062FC1 /* Comets-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Comets-prefix.pch"; sourceTree = "<group>"; };
+		27C987DC9EC8F7E5BDAB2A7779DF6F72 /* IMSLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IMSLog.framework; path = IMSLog/IMSLog.framework; sourceTree = "<group>"; };
+		282877E572B713F8AD460F0CA58A4439 /* sk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = sk.lproj; path = Resources/Strings/sk.lproj; sourceTree = "<group>"; };
+		2B614A5DB07E9D2916A82D1355E78AF1 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hans.lproj"; path = "Resources/Strings/zh-Hans.lproj"; sourceTree = "<group>"; };
+		2C19CC3AB47F61E234262E6E3D064AA2 /* Cards-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cards-dummy.m"; sourceTree = "<group>"; };
+		2C6398B95155C276BFB8116DBC77CA21 /* BLTNItemAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNItemAppearance.swift; path = Sources/Appearance/BLTNItemAppearance.swift; sourceTree = "<group>"; };
+		2CFF896FB0E8EB2DEC80B9EDF259EA0A /* Player-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Player-umbrella.h"; sourceTree = "<group>"; };
+		2F3C53359F5632E59D18A8197E310E74 /* Comets.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Comets.xcconfig; sourceTree = "<group>"; };
+		30D87D1E9F6F29199CCB0DCB5582D33F /* BulletinPresentationAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulletinPresentationAnimationController.swift; path = Sources/Support/Animations/BulletinPresentationAnimationController.swift; sourceTree = "<group>"; };
+		3152FD9912205286695941E538B47DFF /* BLTNBackgroundViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNBackgroundViewStyle.swift; path = Sources/Appearance/BLTNBackgroundViewStyle.swift; sourceTree = "<group>"; };
+		3682A1EADD3CF9CF91FF7C4607F3C61E /* CloseGlyph@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "CloseGlyph@2x.png"; path = "Resources/CloseGlyph@2x.png"; sourceTree = "<group>"; };
+		3AC950266E0D86444C4C67B14CADC115 /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hant.lproj"; path = "Resources/Strings/zh-Hant.lproj"; sourceTree = "<group>"; };
+		3B3F6D3D757D7F2AE73D06DE4CFDE76B /* BLTNContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNContainerView.swift; path = Sources/Support/Views/Public/BLTNContainerView.swift; sourceTree = "<group>"; };
+		3C5C62E29B03F9E421FE2D2227AB3796 /* Cards-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cards-umbrella.h"; sourceTree = "<group>"; };
+		3D44164C8F025834CB2454C8D194809D /* uk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = uk.lproj; path = Resources/Strings/uk.lproj; sourceTree = "<group>"; };
+		3D5944C92518C99EC3DDE521E5D51A40 /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = vi.lproj; path = Resources/Strings/vi.lproj; sourceTree = "<group>"; };
+		4233FD7966CCA63F1B065F5CA90A19DB /* Player-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Player-dummy.m"; sourceTree = "<group>"; };
+		47DFE76DA6EA4057854D05818F31323F /* ContinuousMaskLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContinuousMaskLayer.swift; path = Sources/Support/Views/Internal/ContinuousCorners/ContinuousMaskLayer.swift; sourceTree = "<group>"; };
+		4827D6710E7A9363F2F2C868ACE3A0A2 /* Player-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Player-prefix.pch"; sourceTree = "<group>"; };
+		487CCC17E2A01ABCFDCF1FC03D3E35D0 /* BulletinBoard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BulletinBoard-dummy.m"; sourceTree = "<group>"; };
+		49A7FFE4465DBC65915532059BCDB78A /* ActivityIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicator.swift; path = Sources/Support/Views/Internal/ActivityIndicator.swift; sourceTree = "<group>"; };
+		4F35E75E2DECA978F0293AB8B558BC6E /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = sv.lproj; path = Resources/Strings/sv.lproj; sourceTree = "<group>"; };
+		4FB010766D687BF304B698AE54E95804 /* BLTNBoardSwiftSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLTNBoardSwiftSupport.h; path = Sources/Support/BLTNBoardSwiftSupport.h; sourceTree = "<group>"; };
+		4FF8F040CD6346C1F61E31C204AAAAC0 /* BLTNSpacing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNSpacing.swift; path = Sources/Appearance/BLTNSpacing.swift; sourceTree = "<group>"; };
+		561CE9236FBA18DF9B7D6B511DC6293E /* UTMini.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTMini.framework; path = ut/UTMini.framework; sourceTree = "<group>"; };
+		564439730CFE20FF49FFBA745B3452B9 /* Comets-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Comets-umbrella.h"; sourceTree = "<group>"; };
+		569EFA11109A3B39CD382A8CA698FC48 /* Pods-远程控制-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-远程控制-umbrella.h"; sourceTree = "<group>"; };
+		58E8F37365FCDB72CE7BD60D18B16DF1 /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ko.lproj; path = Resources/Strings/ko.lproj; sourceTree = "<group>"; };
+		5B4A9FDE34A194B7E9062AE9AD6476FA /* BLTNItemManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNItemManager.swift; path = Sources/BLTNItemManager.swift; sourceTree = "<group>"; };
+		5C08AE3835639A2111ACBCE5382CE742 /* libPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DD72614C2B1B319B86BB4D9012DC8AD /* LayoutHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutHelper.swift; path = Cards/Sources/LayoutHelper.swift; sourceTree = "<group>"; };
+		5DE233200CFC09CAB12708E08F018E3B /* BulletinBoard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BulletinBoard.xcconfig; sourceTree = "<group>"; };
+		600BD063A95CD98CE4AF421B18C0B7D5 /* ms.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ms.lproj; path = Resources/Strings/ms.lproj; sourceTree = "<group>"; };
+		602E8FE110246E9E01ADCF5F85D8DCA1 /* Highlighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Highlighter.swift; path = Sources/Support/Views/Internal/Highlighter.swift; sourceTree = "<group>"; };
+		60F5E446E49954BA4CF768089EAAC6EF /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Sources/Deprecations.swift; sourceTree = "<group>"; };
+		6818F9E6E552891C8ECDCC3E1772F847 /* CardGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardGroup.swift; path = Cards/Sources/CardGroup.swift; sourceTree = "<group>"; };
+		693CCCEC7B4ACE56F933117ED6BBBE81 /* AlicloudUTDID.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlicloudUTDID.xcconfig; sourceTree = "<group>"; };
+		6ABDF9031CE81C02BFFA109C0ADF88BD /* AlinkMobileGateway.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlinkMobileGateway.framework; path = "iot-linkkit/AlinkMobileGateway.framework"; sourceTree = "<group>"; };
+		6AF6E92272CFF946360D3999118A37B7 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = Resources/Strings/en.lproj; sourceTree = "<group>"; };
+		6F29D84E92C58D1A911585BD85980E36 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ja.lproj; path = Resources/Strings/ja.lproj; sourceTree = "<group>"; };
+		6F5E62A3CC88BE7449AAFB57A00959E2 /* AnimationChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationChain.swift; path = Sources/Support/Animations/AnimationChain.swift; sourceTree = "<group>"; };
+		70E945CBE352ED3F1B7B18A93D4F554C /* Pods-远程控制.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-远程控制.modulemap"; sourceTree = "<group>"; };
+		70E9F77B88FA810280B9629FBF447258 /* fi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fi.lproj; path = Resources/Strings/fi.lproj; sourceTree = "<group>"; };
+		720496DF0142B33F9875210E6ADA806D /* pt-PT.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "pt-PT.lproj"; path = "Resources/Strings/pt-PT.lproj"; sourceTree = "<group>"; };
+		74FAC201A754E82798FDA5BFC2A16B95 /* IotLinkKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IotLinkKit.framework; path = "iot-linkkit/IotLinkKit.framework"; sourceTree = "<group>"; };
+		779FBA330835D0F08E1EECA3D01BC661 /* Pods-远程控制.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-远程控制.debug.xcconfig"; sourceTree = "<group>"; };
+		77E310F172530CB4ECBCC84F6DDA3620 /* Player.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Player.modulemap; sourceTree = "<group>"; };
+		7AE5896E3BCB1A8823740546DDDD4354 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = nl.lproj; path = Resources/Strings/nl.lproj; sourceTree = "<group>"; };
+		7B668B68012E869799B4D8FED521C190 /* libPods-远程控制.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-远程控制.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FBC80F094B0BE483C6583ACB60CA905 /* cafile.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = cafile.bundle; path = "iot-linkkit/AlinkIoTExpress.framework/cafile.bundle"; sourceTree = "<group>"; };
+		7FFD317A45CDB548163390E79663032B /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ar.lproj; path = Resources/Strings/ar.lproj; sourceTree = "<group>"; };
+		816DE2FEF477CB7EE8A3BEEE3049DE18 /* he.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = he.lproj; path = Resources/Strings/he.lproj; sourceTree = "<group>"; };
+		849AD573AEADD6343259218D38D683D2 /* UIView+SafeAnchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+SafeAnchors.swift"; path = "Sources/Support/Helpers/UIView+SafeAnchors.swift"; sourceTree = "<group>"; };
+		889ED3F6AA49CB909CAF8ADE3FAD9ED6 /* AlicloudPush.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlicloudPush.xcconfig; sourceTree = "<group>"; };
+		8C9EE6B592742EC2E9AFB088E749F095 /* ro.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ro.lproj; path = Resources/Strings/ro.lproj; sourceTree = "<group>"; };
+		8E6C5106F8163484F513295D38FD3623 /* AlinkIoTExpress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlinkIoTExpress.framework; path = "iot-linkkit/AlinkIoTExpress.framework"; sourceTree = "<group>"; };
+		8F0377C0D54ACFDE023DA7EC3AEB2C18 /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pl.lproj; path = Resources/Strings/pl.lproj; sourceTree = "<group>"; };
+		8FEF4CE897B8609E67756A2A8DE35A9A /* BLTNBoard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLTNBoard.h; path = Sources/BLTNBoard.h; sourceTree = "<group>"; };
+		909D733B5AE037E2764898095BBFF952 /* el.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = el.lproj; path = Resources/Strings/el.lproj; sourceTree = "<group>"; };
+		9120C447F9CD33AE1D35C11B64CCC3AD /* BulletinSwipeInteractionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulletinSwipeInteractionController.swift; path = Sources/Support/Animations/BulletinSwipeInteractionController.swift; sourceTree = "<group>"; };
+		918AEE672E28C2AC2FCC81E40A47B3AF /* Pods-远程控制-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-远程控制-resources.sh"; sourceTree = "<group>"; };
+		91B8CC9D1CE6E8CED2FC519B42CC60FD /* AlicloudUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlicloudUtils.xcconfig; sourceTree = "<group>"; };
+		949E2873B7AFD797BDA846FD02FCCD01 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = es.lproj; path = Resources/Strings/es.lproj; sourceTree = "<group>"; };
+		9673B537F39EEEB8ABDD02CED5430C06 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = Resources/Strings/fr.lproj; sourceTree = "<group>"; };
+		974CABF620D526EAB3ABC5C0FEF7C119 /* Cards.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cards.modulemap; sourceTree = "<group>"; };
+		9762A3A79603B085B077B68004BD85CA /* BulletinViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulletinViewController.swift; path = Sources/Support/BulletinViewController.swift; sourceTree = "<group>"; };
+		9A6B7DDBBC262A372988B8C65B35CEDC /* CardGroupSliding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardGroupSliding.swift; path = Cards/Sources/CardGroupSliding.swift; sourceTree = "<group>"; };
+		9C4F019A3FCC585A62A0BFD08DEE2929 /* Card.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Card.swift; path = Cards/Sources/Card.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E931A23326CA6CFD1D56387BE42CD8A /* hi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = hi.lproj; path = Resources/Strings/hi.lproj; sourceTree = "<group>"; };
+		9E995742F75EE0C9BD21C40AACDBDFF3 /* Comets-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Comets-dummy.m"; sourceTree = "<group>"; };
+		9EC66DC4326E0A08FD963D8E757E43FE /* UIView+RoundedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+RoundedView.swift"; path = "Sources/Support/Views/Internal/ContinuousCorners/UIView+RoundedView.swift"; sourceTree = "<group>"; };
+		9FA60EBBA985A518690CF9A8289E99B7 /* Pods-远程控制-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-远程控制-acknowledgements.plist"; sourceTree = "<group>"; };
+		A0C78ED5E37A1E0FB76319C5006AA693 /* BulletinBoard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BulletinBoard-prefix.pch"; sourceTree = "<group>"; };
+		A65345746D1B5AAF2AB6C1074DA8887F /* BLTNItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLTNItem.h; path = Sources/Models/BLTNItem.h; sourceTree = "<group>"; };
+		A7E24D6A4A92531451CC48554A6239FC /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = da.lproj; path = Resources/Strings/da.lproj; sourceTree = "<group>"; };
+		A8470999E8B421E8163C1EC9047C5CC8 /* HighlightButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HighlightButton.swift; path = Sources/Support/Views/Internal/HighlightButton.swift; sourceTree = "<group>"; };
+		AB32A133D0903C6F00B082DA509031A2 /* CardArticle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardArticle.swift; path = Cards/Sources/CardArticle.swift; sourceTree = "<group>"; };
+		AC55257B14F49F4FCAF6B8480CA4EDDC /* cs.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = cs.lproj; path = Resources/Strings/cs.lproj; sourceTree = "<group>"; };
+		AEA6FBA0BF381973466C0622C271A5FA /* Pods-远程控制-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-远程控制-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AEC43099D88532C43DCA9BF0965A32F2 /* Pods-远程控制.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-远程控制.release.xcconfig"; sourceTree = "<group>"; };
+		B13FABFAFF5A0F7C2F1B6E5F0BFD678E /* BLTNActionItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLTNActionItem.m; path = Sources/Models/BLTNActionItem.m; sourceTree = "<group>"; };
+		B39B5329FF10D529C219452A7DD129F5 /* Comet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comet.swift; path = Comets/Sources/Comet.swift; sourceTree = "<group>"; };
+		B3D192F6BFBAF876130F17C401A75DC1 /* BLTNHighlightButtonWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNHighlightButtonWrapper.swift; path = Sources/Support/Views/Public/BLTNHighlightButtonWrapper.swift; sourceTree = "<group>"; };
+		B6036075F0044100023CD353C12C5C1E /* BulletinDismissAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulletinDismissAnimationController.swift; path = Sources/Support/Animations/BulletinDismissAnimationController.swift; sourceTree = "<group>"; };
+		B6B6DA874280989A4EDC8882CC163408 /* BulletinCloseButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulletinCloseButton.swift; path = Sources/Support/Views/Internal/BulletinCloseButton.swift; sourceTree = "<group>"; };
+		B7F1F3C1912FC72E0EA8ED615BB99E21 /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = tr.lproj; path = Resources/Strings/tr.lproj; sourceTree = "<group>"; };
+		C00F051C853AE8AB87B59473C13A6B16 /* AlicloudUT.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlicloudUT.xcconfig; sourceTree = "<group>"; };
+		C0CFF68434D7E999E8C2DEED4BD43BDB /* BLTNPageItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLTNPageItem.m; path = Sources/Models/BLTNPageItem.m; sourceTree = "<group>"; };
+		C46A4B4841ABABF278B4A8FB41248D42 /* CloseGlyph@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "CloseGlyph@3x.png"; path = "Resources/CloseGlyph@3x.png"; sourceTree = "<group>"; };
+		C5FC4EC27B0970F708A6473BCFDA3C50 /* libBulletinBoard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBulletinBoard.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C656A458A79DB2FB5D99D38362A3D92F /* DetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = Cards/Sources/DetailViewController.swift; sourceTree = "<group>"; };
+		C6EA9A8E0F540DBF871E5C42B421837A /* UIButton+BackgroundColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+BackgroundColor.swift"; path = "Sources/Support/Helpers/UIButton+BackgroundColor.swift"; sourceTree = "<group>"; };
+		C70E3C0450EFBE4879D56A95FA8D497D /* UIImage+Rotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Rotate.swift"; path = "Comets/Sources/UIImage+Rotate.swift"; sourceTree = "<group>"; };
+		C8C9FFB5453B823599BA1AAA7F053D8B /* IMSLog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IMSLog.xcconfig; sourceTree = "<group>"; };
+		C8E5BC8AFC1DBF91E7D6C2A3244B4FAA /* pt-BR.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "pt-BR.lproj"; path = "Resources/Strings/pt-BR.lproj"; sourceTree = "<group>"; };
+		C98F825AABA1E57EF35E8E44C72CEB58 /* hr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = hr.lproj; path = Resources/Strings/hr.lproj; sourceTree = "<group>"; };
+		CAA4BDBEE3C39C9ACC101A22EA970529 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ru.lproj; path = Resources/Strings/ru.lproj; sourceTree = "<group>"; };
+		CE7EDAC85C6453FF12615FBD29F8EC63 /* AlicloudUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlicloudUtils.framework; path = utils/AlicloudUtils.framework; sourceTree = "<group>"; };
+		D0BFF79604791F6E414500E58C81749B /* nb.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = nb.lproj; path = Resources/Strings/nb.lproj; sourceTree = "<group>"; };
+		D16E3D42F98CDA915B19E925CDB3D0BA /* BLTNInterfaceBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNInterfaceBuilder.swift; path = Sources/Appearance/BLTNInterfaceBuilder.swift; sourceTree = "<group>"; };
+		D1B9777A2E95256E2F290A8A85C5BEF2 /* Comets.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Comets.modulemap; sourceTree = "<group>"; };
+		D6F6CA9356F5220A369A1F2AAA7A65A4 /* ca.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ca.lproj; path = Resources/Strings/ca.lproj; sourceTree = "<group>"; };
+		DA76DB955AE4FB9894B1E1E5D9B97EB7 /* BLTNPageItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLTNPageItem.h; path = Sources/Models/BLTNPageItem.h; sourceTree = "<group>"; };
+		DAFADEF3B3A643E1E70D2FBC2EE24168 /* BulletinBoard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BulletinBoard.modulemap; sourceTree = "<group>"; };
+		E0720869AE56E49DF45EE0CB63256F6A /* BLTNActionItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLTNActionItem.h; path = Sources/Models/BLTNActionItem.h; sourceTree = "<group>"; };
+		E12AF893189B5195F74AB1E7DEE57697 /* BLTNViewPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNViewPosition.swift; path = Sources/Appearance/BLTNViewPosition.swift; sourceTree = "<group>"; };
+		E2940B648125C967645ECE5EC55BCD17 /* Pods-远程控制-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-远程控制-dummy.m"; sourceTree = "<group>"; };
+		E354A2037029B642F701F8A1559B86F5 /* BLTNTitleLabelContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNTitleLabelContainer.swift; path = Sources/Support/Views/Public/BLTNTitleLabelContainer.swift; sourceTree = "<group>"; };
+		EAB014CF0AF7D9A04CCED078073894A4 /* CardPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardPlayer.swift; path = Cards/Sources/CardPlayer.swift; sourceTree = "<group>"; };
+		EC7F06F364614C51E830F26C60172A0B /* libCards.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCards.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2DAFDF60CF06881191889603E984ED /* IotLinkKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IotLinkKit.xcconfig; sourceTree = "<group>"; };
+		EFD24893074205E0779D0CD6AA57752B /* CardHighlight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardHighlight.swift; path = Cards/Sources/CardHighlight.swift; sourceTree = "<group>"; };
+		F0BA34D8265FE70215462CDCED5E55AD /* Player.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Player.swift; path = Sources/Player.swift; sourceTree = "<group>"; };
+		F12199E0AF4B8EF99F8593590DFE7628 /* th.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = th.lproj; path = Resources/Strings/th.lproj; sourceTree = "<group>"; };
+		F62C05D711396F7E177BB1253184CDDF /* Player.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Player.xcconfig; sourceTree = "<group>"; };
+		F6CD2E4AFFD1937C9A4406715868624A /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = Resources/Strings/de.lproj; sourceTree = "<group>"; };
+		F7DAFBFEC61119843863B9FC7D76FA77 /* CloudPushSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudPushSDK.framework; path = push/CloudPushSDK.framework; sourceTree = "<group>"; };
+		FE45446DFAB711EC8D5DC7F5996867BF /* RoundedViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoundedViewProtocol.swift; path = Sources/Support/Views/Internal/ContinuousCorners/RoundedViewProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17C00A9B3F33529778B05BEB2A2A2FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425BCD85DF40866AEFCB1F070EDD88F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B56ECFB712F5AFA6FE0CD4C00190B29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF0410713989C0A8A714A828B21E8B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF344C69C96F49E8B7E57BBBDBD9D27C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		071C01CC37F3A1FA4E78812572EBA396 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7DAFBFEC61119843863B9FC7D76FA77 /* CloudPushSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A3F60AA9DD66CB8B52FE08E2AEFE257 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27C987DC9EC8F7E5BDAB2A7779DF6F72 /* IMSLog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FA124B35736FC909D6E120E4FC23FC7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7FFD317A45CDB548163390E79663032B /* ar.lproj */,
+				D6F6CA9356F5220A369A1F2AAA7A65A4 /* ca.lproj */,
+				0A88BF3477AB59CFA8D1E1CDC17CB1B7 /* CloseGlyph.png */,
+				3682A1EADD3CF9CF91FF7C4607F3C61E /* CloseGlyph@2x.png */,
+				C46A4B4841ABABF278B4A8FB41248D42 /* CloseGlyph@3x.png */,
+				AC55257B14F49F4FCAF6B8480CA4EDDC /* cs.lproj */,
+				A7E24D6A4A92531451CC48554A6239FC /* da.lproj */,
+				F6CD2E4AFFD1937C9A4406715868624A /* de.lproj */,
+				909D733B5AE037E2764898095BBFF952 /* el.lproj */,
+				6AF6E92272CFF946360D3999118A37B7 /* en.lproj */,
+				949E2873B7AFD797BDA846FD02FCCD01 /* es.lproj */,
+				70E9F77B88FA810280B9629FBF447258 /* fi.lproj */,
+				9673B537F39EEEB8ABDD02CED5430C06 /* fr.lproj */,
+				816DE2FEF477CB7EE8A3BEEE3049DE18 /* he.lproj */,
+				9E931A23326CA6CFD1D56387BE42CD8A /* hi.lproj */,
+				C98F825AABA1E57EF35E8E44C72CEB58 /* hr.lproj */,
+				16B17E30AC97CDB5C71C8600B968D1C6 /* hu.lproj */,
+				0590D744FB8B0F97C321A63DDCEA0367 /* id.lproj */,
+				16C04DBFA4FC3A924EC442136B11762C /* it.lproj */,
+				6F29D84E92C58D1A911585BD85980E36 /* ja.lproj */,
+				58E8F37365FCDB72CE7BD60D18B16DF1 /* ko.lproj */,
+				600BD063A95CD98CE4AF421B18C0B7D5 /* ms.lproj */,
+				D0BFF79604791F6E414500E58C81749B /* nb.lproj */,
+				7AE5896E3BCB1A8823740546DDDD4354 /* nl.lproj */,
+				8F0377C0D54ACFDE023DA7EC3AEB2C18 /* pl.lproj */,
+				C8E5BC8AFC1DBF91E7D6C2A3244B4FAA /* pt-BR.lproj */,
+				720496DF0142B33F9875210E6ADA806D /* pt-PT.lproj */,
+				8C9EE6B592742EC2E9AFB088E749F095 /* ro.lproj */,
+				CAA4BDBEE3C39C9ACC101A22EA970529 /* ru.lproj */,
+				282877E572B713F8AD460F0CA58A4439 /* sk.lproj */,
+				4F35E75E2DECA978F0293AB8B558BC6E /* sv.lproj */,
+				F12199E0AF4B8EF99F8593590DFE7628 /* th.lproj */,
+				B7F1F3C1912FC72E0EA8ED615BB99E21 /* tr.lproj */,
+				3D44164C8F025834CB2454C8D194809D /* uk.lproj */,
+				3D5944C92518C99EC3DDE521E5D51A40 /* vi.lproj */,
+				2B614A5DB07E9D2916A82D1355E78AF1 /* zh-Hans.lproj */,
+				3AC950266E0D86444C4C67B14CADC115 /* zh-Hant.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		24C84694CE8C895843BCC3AEE0F8CA1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				693CCCEC7B4ACE56F933117ED6BBBE81 /* AlicloudUTDID.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlicloudUTDID";
+			sourceTree = "<group>";
+		};
+		2574D5816C6DF24D8E83D6E161A221A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE7EDAC85C6453FF12615FBD29F8EC63 /* AlicloudUtils.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		373045657A43F6C06C98A20F2AF23297 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				126E283A7AC4881FE498DE603A403BC9 /* UTDID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44B2542C58E7EE36A0729D6A6613602D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4842E978BF1ABB6FFAC79D828A426A7 /* AlicloudPush */,
+				F410D0BD2AD9EB38865206C382BA55FC /* AlicloudUT */,
+				E2C1188A271D9451C419612D53012632 /* AlicloudUTDID */,
+				A201587EBED5E25ECD333BD653862B4F /* AlicloudUtils */,
+				8D937DBC7F9B7BFEE96B62615403B10B /* BulletinBoard */,
+				46A2D3DE26FFC5A9E2EFD2C6760B5F85 /* Cards */,
+				51F6FE1A851174E1D140C93ABD86CC5B /* Comets */,
+				B79425C7BAAD35D3389A7786710C455E /* IMSLog */,
+				E655464B4936FC849BD9F763D6EFEA32 /* IotLinkKit */,
+				9316BE6D465319B4118A48CE8AC96DC8 /* Player */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4500FC477BB009D40C29DFBAAA063851 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8C9FFB5453B823599BA1AAA7F053D8B /* IMSLog.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IMSLog";
+			sourceTree = "<group>";
+		};
+		46A2D3DE26FFC5A9E2EFD2C6760B5F85 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				01899BD7C5FD8547EE84369A255836C8 /* Animator.swift */,
+				9C4F019A3FCC585A62A0BFD08DEE2929 /* Card.swift */,
+				AB32A133D0903C6F00B082DA509031A2 /* CardArticle.swift */,
+				6818F9E6E552891C8ECDCC3E1772F847 /* CardGroup.swift */,
+				9A6B7DDBBC262A372988B8C65B35CEDC /* CardGroupSliding.swift */,
+				EFD24893074205E0779D0CD6AA57752B /* CardHighlight.swift */,
+				EAB014CF0AF7D9A04CCED078073894A4 /* CardPlayer.swift */,
+				C656A458A79DB2FB5D99D38362A3D92F /* DetailViewController.swift */,
+				5DD72614C2B1B319B86BB4D9012DC8AD /* LayoutHelper.swift */,
+				ABBBCFF5C2200C6B276E1D3C0D5EECCE /* Support Files */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		491D309948BF815CC0E0FA8A174BAF57 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1B9777A2E95256E2F290A8A85C5BEF2 /* Comets.modulemap */,
+				2F3C53359F5632E59D18A8197E310E74 /* Comets.xcconfig */,
+				9E995742F75EE0C9BD21C40AACDBDFF3 /* Comets-dummy.m */,
+				24EB2F1E4F4C91FC82DC08BD75062FC1 /* Comets-prefix.pch */,
+				564439730CFE20FF49FFBA745B3452B9 /* Comets-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Comets";
+			sourceTree = "<group>";
+		};
+		51F6FE1A851174E1D140C93ABD86CC5B /* Comets */ = {
+			isa = PBXGroup;
+			children = (
+				B39B5329FF10D529C219452A7DD129F5 /* Comet.swift */,
+				C70E3C0450EFBE4879D56A95FA8D497D /* UIImage+Rotate.swift */,
+				491D309948BF815CC0E0FA8A174BAF57 /* Support Files */,
+			);
+			path = Comets;
+			sourceTree = "<group>";
+		};
+		57C4FBA6E9279801C844C0463583E86D /* Pods-远程控制 */ = {
+			isa = PBXGroup;
+			children = (
+				70E945CBE352ED3F1B7B18A93D4F554C /* Pods-远程控制.modulemap */,
+				AEA6FBA0BF381973466C0622C271A5FA /* Pods-远程控制-acknowledgements.markdown */,
+				9FA60EBBA985A518690CF9A8289E99B7 /* Pods-远程控制-acknowledgements.plist */,
+				E2940B648125C967645ECE5EC55BCD17 /* Pods-远程控制-dummy.m */,
+				918AEE672E28C2AC2FCC81E40A47B3AF /* Pods-远程控制-resources.sh */,
+				569EFA11109A3B39CD382A8CA698FC48 /* Pods-远程控制-umbrella.h */,
+				779FBA330835D0F08E1EECA3D01BC661 /* Pods-远程控制.debug.xcconfig */,
+				AEC43099D88532C43DCA9BF0965A32F2 /* Pods-远程控制.release.xcconfig */,
+			);
+			name = "Pods-远程控制";
+			path = "Target Support Files/Pods-远程控制";
+			sourceTree = "<group>";
+		};
+		5ABE0D1CCD3D53F1AF82C6E56EC1A3D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				561CE9236FBA18DF9B7D6B511DC6293E /* UTMini.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7063AB0CC0D9D0EE8F79A654F190684A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91B8CC9D1CE6E8CED2FC519B42CC60FD /* AlicloudUtils.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlicloudUtils";
+			sourceTree = "<group>";
+		};
+		860140A5046E7F4433C7F47871845C75 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAFADEF3B3A643E1E70D2FBC2EE24168 /* BulletinBoard.modulemap */,
+				5DE233200CFC09CAB12708E08F018E3B /* BulletinBoard.xcconfig */,
+				487CCC17E2A01ABCFDCF1FC03D3E35D0 /* BulletinBoard-dummy.m */,
+				A0C78ED5E37A1E0FB76319C5006AA693 /* BulletinBoard-prefix.pch */,
+				112FA8CF52202A901FF352F8535FB901 /* BulletinBoard-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BulletinBoard";
+			sourceTree = "<group>";
+		};
+		8661A895AB033C64D88541A047BE5518 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E6C5106F8163484F513295D38FD3623 /* AlinkIoTExpress.framework */,
+				6ABDF9031CE81C02BFFA109C0ADF88BD /* AlinkMobileGateway.framework */,
+				74FAC201A754E82798FDA5BFC2A16B95 /* IotLinkKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D937DBC7F9B7BFEE96B62615403B10B /* BulletinBoard */ = {
+			isa = PBXGroup;
+			children = (
+				49A7FFE4465DBC65915532059BCDB78A /* ActivityIndicator.swift */,
+				6F5E62A3CC88BE7449AAFB57A00959E2 /* AnimationChain.swift */,
+				E0720869AE56E49DF45EE0CB63256F6A /* BLTNActionItem.h */,
+				B13FABFAFF5A0F7C2F1B6E5F0BFD678E /* BLTNActionItem.m */,
+				3152FD9912205286695941E538B47DFF /* BLTNBackgroundViewStyle.swift */,
+				8FEF4CE897B8609E67756A2A8DE35A9A /* BLTNBoard.h */,
+				4FB010766D687BF304B698AE54E95804 /* BLTNBoardSwiftSupport.h */,
+				3B3F6D3D757D7F2AE73D06DE4CFDE76B /* BLTNContainerView.swift */,
+				B3D192F6BFBAF876130F17C401A75DC1 /* BLTNHighlightButtonWrapper.swift */,
+				D16E3D42F98CDA915B19E925CDB3D0BA /* BLTNInterfaceBuilder.swift */,
+				A65345746D1B5AAF2AB6C1074DA8887F /* BLTNItem.h */,
+				2C6398B95155C276BFB8116DBC77CA21 /* BLTNItemAppearance.swift */,
+				5B4A9FDE34A194B7E9062AE9AD6476FA /* BLTNItemManager.swift */,
+				DA76DB955AE4FB9894B1E1E5D9B97EB7 /* BLTNPageItem.h */,
+				C0CFF68434D7E999E8C2DEED4BD43BDB /* BLTNPageItem.m */,
+				4FF8F040CD6346C1F61E31C204AAAAC0 /* BLTNSpacing.swift */,
+				E354A2037029B642F701F8A1559B86F5 /* BLTNTitleLabelContainer.swift */,
+				E12AF893189B5195F74AB1E7DEE57697 /* BLTNViewPosition.swift */,
+				0721BCA517B7A8DDB52E31138B7E883E /* BulletinBackgroundView.swift */,
+				B6B6DA874280989A4EDC8882CC163408 /* BulletinCloseButton.swift */,
+				B6036075F0044100023CD353C12C5C1E /* BulletinDismissAnimationController.swift */,
+				30D87D1E9F6F29199CCB0DCB5582D33F /* BulletinPresentationAnimationController.swift */,
+				9120C447F9CD33AE1D35C11B64CCC3AD /* BulletinSwipeInteractionController.swift */,
+				9762A3A79603B085B077B68004BD85CA /* BulletinViewController.swift */,
+				47DFE76DA6EA4057854D05818F31323F /* ContinuousMaskLayer.swift */,
+				60F5E446E49954BA4CF768089EAAC6EF /* Deprecations.swift */,
+				A8470999E8B421E8163C1EC9047C5CC8 /* HighlightButton.swift */,
+				602E8FE110246E9E01ADCF5F85D8DCA1 /* Highlighter.swift */,
+				FE45446DFAB711EC8D5DC7F5996867BF /* RoundedViewProtocol.swift */,
+				C6EA9A8E0F540DBF871E5C42B421837A /* UIButton+BackgroundColor.swift */,
+				07AAAE80D4C23E3432B891A3D5D9315B /* UIColor+Luminance.swift */,
+				9EC66DC4326E0A08FD963D8E757E43FE /* UIView+RoundedView.swift */,
+				849AD573AEADD6343259218D38D683D2 /* UIView+SafeAnchors.swift */,
+				0FA124B35736FC909D6E120E4FC23FC7 /* Resources */,
+				860140A5046E7F4433C7F47871845C75 /* Support Files */,
+			);
+			path = BulletinBoard;
+			sourceTree = "<group>";
+		};
+		9316BE6D465319B4118A48CE8AC96DC8 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				F0BA34D8265FE70215462CDCED5E55AD /* Player.swift */,
+				D1783A0465F3DBFD1B87E9907C0E2253 /* Support Files */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		9419CB83CB6C8A0287CBF02E95A0F694 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				889ED3F6AA49CB909CAF8ADE3FAD9ED6 /* AlicloudPush.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlicloudPush";
+			sourceTree = "<group>";
+		};
+		A201587EBED5E25ECD333BD653862B4F /* AlicloudUtils */ = {
+			isa = PBXGroup;
+			children = (
+				2574D5816C6DF24D8E83D6E161A221A2 /* Frameworks */,
+				7063AB0CC0D9D0EE8F79A654F190684A /* Support Files */,
+			);
+			path = AlicloudUtils;
+			sourceTree = "<group>";
+		};
+		ABBBCFF5C2200C6B276E1D3C0D5EECCE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				974CABF620D526EAB3ABC5C0FEF7C119 /* Cards.modulemap */,
+				1D8FC69E2C1BD17A8E9BA5C805B0A94B /* Cards.xcconfig */,
+				2C19CC3AB47F61E234262E6E3D064AA2 /* Cards-dummy.m */,
+				1B69167355EB11135B267EEBC49E1B31 /* Cards-prefix.pch */,
+				3C5C62E29B03F9E421FE2D2227AB3796 /* Cards-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cards";
+			sourceTree = "<group>";
+		};
+		AF7F9D0AB1F87565605FDA55E7372745 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE2DAFDF60CF06881191889603E984ED /* IotLinkKit.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IotLinkKit";
+			sourceTree = "<group>";
+		};
+		B79425C7BAAD35D3389A7786710C455E /* IMSLog */ = {
+			isa = PBXGroup;
+			children = (
+				0A3F60AA9DD66CB8B52FE08E2AEFE257 /* Frameworks */,
+				4500FC477BB009D40C29DFBAAA063851 /* Support Files */,
+			);
+			path = IMSLog;
+			sourceTree = "<group>";
+		};
+		BCA75EDBB810FED569FE9C8786527411 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5FC4EC27B0970F708A6473BCFDA3C50 /* libBulletinBoard.a */,
+				EC7F06F364614C51E830F26C60172A0B /* libCards.a */,
+				2106D2E391B766F728678D6C93ABE467 /* libComets.a */,
+				5C08AE3835639A2111ACBCE5382CE742 /* libPlayer.a */,
+				7B668B68012E869799B4D8FED521C190 /* libPods-远程控制.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				44B2542C58E7EE36A0729D6A6613602D /* Pods */,
+				BCA75EDBB810FED569FE9C8786527411 /* Products */,
+				D01925D8CCD96F34C98F298A49AEED34 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D01925D8CCD96F34C98F298A49AEED34 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57C4FBA6E9279801C844C0463583E86D /* Pods-远程控制 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D1783A0465F3DBFD1B87E9907C0E2253 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77E310F172530CB4ECBCC84F6DDA3620 /* Player.modulemap */,
+				F62C05D711396F7E177BB1253184CDDF /* Player.xcconfig */,
+				4233FD7966CCA63F1B065F5CA90A19DB /* Player-dummy.m */,
+				4827D6710E7A9363F2F2C868ACE3A0A2 /* Player-prefix.pch */,
+				2CFF896FB0E8EB2DEC80B9EDF259EA0A /* Player-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Player";
+			sourceTree = "<group>";
+		};
+		D4842E978BF1ABB6FFAC79D828A426A7 /* AlicloudPush */ = {
+			isa = PBXGroup;
+			children = (
+				071C01CC37F3A1FA4E78812572EBA396 /* Frameworks */,
+				9419CB83CB6C8A0287CBF02E95A0F694 /* Support Files */,
+			);
+			path = AlicloudPush;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1DE0399EE36EDCB4C7D08FF04094E9F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7FBC80F094B0BE483C6583ACB60CA905 /* cafile.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E2C1188A271D9451C419612D53012632 /* AlicloudUTDID */ = {
+			isa = PBXGroup;
+			children = (
+				373045657A43F6C06C98A20F2AF23297 /* Frameworks */,
+				24C84694CE8C895843BCC3AEE0F8CA1E /* Support Files */,
+			);
+			path = AlicloudUTDID;
+			sourceTree = "<group>";
+		};
+		E655464B4936FC849BD9F763D6EFEA32 /* IotLinkKit */ = {
+			isa = PBXGroup;
+			children = (
+				8661A895AB033C64D88541A047BE5518 /* Frameworks */,
+				E1DE0399EE36EDCB4C7D08FF04094E9F /* Resources */,
+				AF7F9D0AB1F87565605FDA55E7372745 /* Support Files */,
+			);
+			path = IotLinkKit;
+			sourceTree = "<group>";
+		};
+		EDDCB26A932E40BAA9561A6915BCC937 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C00F051C853AE8AB87B59473C13A6B16 /* AlicloudUT.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlicloudUT";
+			sourceTree = "<group>";
+		};
+		F410D0BD2AD9EB38865206C382BA55FC /* AlicloudUT */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE0D1CCD3D53F1AF82C6E56EC1A3D7 /* Frameworks */,
+				EDDCB26A932E40BAA9561A6915BCC937 /* Support Files */,
+			);
+			path = AlicloudUT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		47EBCAF8E72E41AAEAD6D4C96D253A78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465EAAA489B18D72917068594654DE3A /* Player-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3B8DEB6FF1115C118D6C1BA1BADA73 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD2D0C1FC548EDFFFB827DD3E799B5F /* Comets-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE9FC6EDA85739B7DD3DA1695E63873 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6334AB110541A2E11A61E8D4DE5548E1 /* BLTNActionItem.h in Headers */,
+				A965974AE941118556FD7AD3E3C3C5FF /* BLTNBoard.h in Headers */,
+				0F62F11DE8D1EEE395BD37F56D476A3F /* BLTNBoardSwiftSupport.h in Headers */,
+				A1BC02D65F005935DD2F2B3937F4218E /* BLTNItem.h in Headers */,
+				A5956ADFD5170C5B72E79E320C41F5CD /* BLTNPageItem.h in Headers */,
+				C41ED9BFD10AF7928503BB7D751B12AD /* BulletinBoard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB686D1FCFDDB4A43CF1B83ADE2FE985 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9478EE67CB96ED07F26772B4BCEC870 /* Cards-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF16EB3DAEBB2109EC0F90D4C369B87E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E0B3F23043EF96AE581E4B4EA84385 /* Pods-远程控制-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		125B6FEA16CD0511AAB23164F8FDFACD /* Comets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61EA0EDCA5361F4B5875E9A64A599651 /* Build configuration list for PBXNativeTarget "Comets" */;
+			buildPhases = (
+				4A3B8DEB6FF1115C118D6C1BA1BADA73 /* Headers */,
+				F8A43619A3B2ABFDFA0A6CCCCE809C45 /* Sources */,
+				BCF0410713989C0A8A714A828B21E8B2 /* Frameworks */,
+				13BB2C7F5122A7EE9C72CC17F0A99A77 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Comets;
+			productName = Comets;
+			productReference = 2106D2E391B766F728678D6C93ABE467 /* libComets.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3566CE7721250363BAE931141A0703B1 /* Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7EE695DE857CA0BB8C319CFE95849E9 /* Build configuration list for PBXNativeTarget "Player" */;
+			buildPhases = (
+				47EBCAF8E72E41AAEAD6D4C96D253A78 /* Headers */,
+				08D9C90FA6C7A821EE57CE4ED71AE657 /* Sources */,
+				8B56ECFB712F5AFA6FE0CD4C00190B29 /* Frameworks */,
+				7BD90FFE509265BA925571D10E4727E3 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Player;
+			productName = Player;
+			productReference = 5C08AE3835639A2111ACBCE5382CE742 /* libPlayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3CBE366D25C3692AAE548A9B678264C8 /* BulletinBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 698B3C0EBAE5E2CE02E34ECEF1CD88D5 /* Build configuration list for PBXNativeTarget "BulletinBoard" */;
+			buildPhases = (
+				7BE9FC6EDA85739B7DD3DA1695E63873 /* Headers */,
+				06640517C884790D64213CFDFAB7E054 /* Sources */,
+				17C00A9B3F33529778B05BEB2A2A2FF1 /* Frameworks */,
+				8A396525CF1902A4CB70F59327EACB03 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BulletinBoard;
+			productName = BulletinBoard;
+			productReference = C5FC4EC27B0970F708A6473BCFDA3C50 /* libBulletinBoard.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		95686D88267B7D426C897EA9E91FC217 /* Cards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C138D03B00C027638492FB16B63B6857 /* Build configuration list for PBXNativeTarget "Cards" */;
+			buildPhases = (
+				AB686D1FCFDDB4A43CF1B83ADE2FE985 /* Headers */,
+				824CD8992222D03A72013869E8B784D4 /* Sources */,
+				FF344C69C96F49E8B7E57BBBDBD9D27C /* Frameworks */,
+				685B061ADC05DCD991CD25385357C644 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				719B7593FA9796FB7B885223002B7404 /* PBXTargetDependency */,
+			);
+			name = Cards;
+			productName = Cards;
+			productReference = EC7F06F364614C51E830F26C60172A0B /* libCards.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F95266FDD126A1780A50C88838062E34 /* Pods-远程控制 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 029CF6993BE1651C70CD791D435DBA13 /* Build configuration list for PBXNativeTarget "Pods-远程控制" */;
+			buildPhases = (
+				FF16EB3DAEBB2109EC0F90D4C369B87E /* Headers */,
+				893E46472AAF5656F7342EEC2A9299D4 /* Sources */,
+				425BCD85DF40866AEFCB1F070EDD88F2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				080463B9F7E14835B0678CDF83F9F423 /* PBXTargetDependency */,
+				694885BFB2976F80A2AAF76D37BF15FD /* PBXTargetDependency */,
+				5CDB35106512EDC5358A906AE4118DD0 /* PBXTargetDependency */,
+				3B52EF13CFC9401CD949355E3D0FCF25 /* PBXTargetDependency */,
+				F39928A73767ED69474A03C7DC916704 /* PBXTargetDependency */,
+				45212BF1E760129C3C7581EDE87C57BB /* PBXTargetDependency */,
+				C22E3B660C6FDAB0FCC9C54C914F18D6 /* PBXTargetDependency */,
+				D13A56EEB83FB1FA238711AE42D12D49 /* PBXTargetDependency */,
+				D96EEA7B5128B2D0DC9F5CE6961E32EF /* PBXTargetDependency */,
+				294AB70EFDDBBC508745C73D825C725B /* PBXTargetDependency */,
+			);
+			name = "Pods-远程控制";
+			productName = "Pods-远程控制";
+			productReference = 7B668B68012E869799B4D8FED521C190 /* libPods-远程控制.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BCA75EDBB810FED569FE9C8786527411 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C508EB37C9C701BDBDF2992EE93AA08C /* AlicloudPush */,
+				E9E6A901E448660EFF3445A118182C28 /* AlicloudUT */,
+				0883074DEB508458C174DE306B480284 /* AlicloudUTDID */,
+				DD99D8E362F7950F06AD0A963460E834 /* AlicloudUtils */,
+				3CBE366D25C3692AAE548A9B678264C8 /* BulletinBoard */,
+				95686D88267B7D426C897EA9E91FC217 /* Cards */,
+				125B6FEA16CD0511AAB23164F8FDFACD /* Comets */,
+				A2A523E6D90FF53AA039C147829BDA15 /* IMSLog */,
+				F4FBE466B0DF6B7512E21301739DB3A3 /* IotLinkKit */,
+				3566CE7721250363BAE931141A0703B1 /* Player */,
+				F95266FDD126A1780A50C88838062E34 /* Pods-远程控制 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13BB2C7F5122A7EE9C72CC17F0A99A77 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/Comets/Comets.modulemap",
+				"${PODS_ROOT}/Headers/Public/Comets/Comets-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/Comets-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Comets/Comets.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Comets/Comets-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		685B061ADC05DCD991CD25385357C644 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/Cards/Cards.modulemap",
+				"${PODS_ROOT}/Headers/Public/Cards/Cards-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/Cards-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Cards/Cards.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Cards/Cards-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		7BD90FFE509265BA925571D10E4727E3 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/Player/Player.modulemap",
+				"${PODS_ROOT}/Headers/Public/Player/Player-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/Player-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Player/Player.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Player/Player-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		8A396525CF1902A4CB70F59327EACB03 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/BLTNBoard/BulletinBoard.modulemap",
+				"${PODS_ROOT}/Headers/Public/BLTNBoard/BulletinBoard-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/BulletinBoard-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/BLTNBoard/BulletinBoard.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/BLTNBoard/BulletinBoard-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06640517C884790D64213CFDFAB7E054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D6320A0C540CD302886594035B51E7 /* ActivityIndicator.swift in Sources */,
+				778126FDD5AE041D4652243D35C29713 /* AnimationChain.swift in Sources */,
+				374FC383BE2AD5D66D66D1964D260EE0 /* BLTNActionItem.m in Sources */,
+				A1C44BCE504CF833F5343D0D3E43F18E /* BLTNBackgroundViewStyle.swift in Sources */,
+				443BB25DE08531AA8E686887865C02B5 /* BLTNContainerView.swift in Sources */,
+				9F76AAF3AE2AFB3C782BB1E23FCE9A17 /* BLTNHighlightButtonWrapper.swift in Sources */,
+				51536B5338C2332B1DDEB542A521D382 /* BLTNInterfaceBuilder.swift in Sources */,
+				D825ACCDC8D52AE8EF97D11CD11EA3A7 /* BLTNItemAppearance.swift in Sources */,
+				05174A0F443042B1585616DD1ED629BA /* BLTNItemManager.swift in Sources */,
+				297B697357E836FB0E3F031B5B78E5A6 /* BLTNPageItem.m in Sources */,
+				A0A5A2CF27DE2E3A61EA59B722571415 /* BLTNSpacing.swift in Sources */,
+				3AF43E23472DDAD1D2F952A08EC999B9 /* BLTNTitleLabelContainer.swift in Sources */,
+				50050046451C84841B7B0B2902195F2C /* BLTNViewPosition.swift in Sources */,
+				9D1B18F8D75B9FB576DBF13B8C7C621E /* BulletinBackgroundView.swift in Sources */,
+				AEDD15A982716DA35682B7519809F320 /* BulletinBoard-dummy.m in Sources */,
+				0508F5B2551E0CA888C4E1CB854D7196 /* BulletinCloseButton.swift in Sources */,
+				BA43F0B9EC100B910E2AFB363344C403 /* BulletinDismissAnimationController.swift in Sources */,
+				6835BEA717B4AE6514AA5CF6FB4A1185 /* BulletinPresentationAnimationController.swift in Sources */,
+				225D86E17CF287034C8843E9A1E0F472 /* BulletinSwipeInteractionController.swift in Sources */,
+				C8D99AC3CA39037032A0849616D7CA2C /* BulletinViewController.swift in Sources */,
+				EDC3915232E98719430E70B596BE1B0B /* ContinuousMaskLayer.swift in Sources */,
+				C0738AB8656F135C755108F8DC5B2169 /* Deprecations.swift in Sources */,
+				70ACA6AB22C530ADFDB6AB7DE94D48B9 /* HighlightButton.swift in Sources */,
+				3144CCD1592E414E7C5398FDB920BA7E /* Highlighter.swift in Sources */,
+				6EF3EDD66D70031AC7234D0B7A38549A /* RoundedViewProtocol.swift in Sources */,
+				2E8B278F6FB871F038ABD7565CE9D091 /* UIButton+BackgroundColor.swift in Sources */,
+				706ED8C29CEA46B68B982B0D83603009 /* UIColor+Luminance.swift in Sources */,
+				3C2794A27858599983EF055AB17790C1 /* UIView+RoundedView.swift in Sources */,
+				AC93EFAB0A86D18C6C1DFAC7D71AC31E /* UIView+SafeAnchors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D9C90FA6C7A821EE57CE4ED71AE657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F925558974EBE5C213358DA431AA64CE /* Player-dummy.m in Sources */,
+				3ADD7CFD50F5E5E8ABF4C00AF9E6196B /* Player.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		824CD8992222D03A72013869E8B784D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A572E14EBD82366B37834C97FE0C13E5 /* Animator.swift in Sources */,
+				947EE40F094640F0CDAF3E46A26586CF /* Card.swift in Sources */,
+				A374495FDD077EF8B6DE4CCD0130DFB4 /* CardArticle.swift in Sources */,
+				D1CB5CF6F09523CE5F750C59B7BD1353 /* CardGroup.swift in Sources */,
+				6FD3998E1FB807EB7C3E56AEB16EDFB1 /* CardGroupSliding.swift in Sources */,
+				BD3C906E06B2310341F2D2EF5462E137 /* CardHighlight.swift in Sources */,
+				64898AF7427BBCA9C5462FD8E6700513 /* CardPlayer.swift in Sources */,
+				E2EFB9D18E49A79C49626D65C9E705A5 /* Cards-dummy.m in Sources */,
+				8D64C5619224DF3D7520D2765CE864E6 /* DetailViewController.swift in Sources */,
+				55B331C4AD049E0A2D6DCFA68247605F /* LayoutHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893E46472AAF5656F7342EEC2A9299D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E60CB4545ED086FDA1067771C8750C /* Pods-远程控制-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A43619A3B2ABFDFA0A6CCCCE809C45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED466E095E48D0B9A54BFE80CA863D1 /* Comet.swift in Sources */,
+				2656E8529FEBB6562E29A32BCCA301CA /* Comets-dummy.m in Sources */,
+				CA95D8FB7ED157459DD50CCC2B66D6D0 /* UIImage+Rotate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		080463B9F7E14835B0678CDF83F9F423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlicloudPush;
+			target = C508EB37C9C701BDBDF2992EE93AA08C /* AlicloudPush */;
+			targetProxy = A660FB87F4EEF8515C0D6D7A775ED621 /* PBXContainerItemProxy */;
+		};
+		25C9BC787236994239B50F538E1CADA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlicloudUtils;
+			target = DD99D8E362F7950F06AD0A963460E834 /* AlicloudUtils */;
+			targetProxy = D7527743C3EB8A8911BB6A514644561A /* PBXContainerItemProxy */;
+		};
+		294AB70EFDDBBC508745C73D825C725B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Player;
+			target = 3566CE7721250363BAE931141A0703B1 /* Player */;
+			targetProxy = F235161400852B4F8761ACA84F9DA601 /* PBXContainerItemProxy */;
+		};
+		3B52EF13CFC9401CD949355E3D0FCF25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlicloudUtils;
+			target = DD99D8E362F7950F06AD0A963460E834 /* AlicloudUtils */;
+			targetProxy = 2B7129BCDC03DB8C1392F03405950C49 /* PBXContainerItemProxy */;
+		};
+		3FE1107E5F8075FC0B653B310D498E9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlicloudUTDID;
+			target = 0883074DEB508458C174DE306B480284 /* AlicloudUTDID */;
+			targetProxy = 4066DEF5DA5B3EFD56B8D872A87D2590 /* PBXContainerItemProxy */;
+		};
+		4510567580E58742F2572B1B9787B2BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlicloudUTDID;
+			target = 0883074DEB508458C174DE306B480284 /* AlicloudUTDID */;
+			targetProxy = 7E3A92943A5B9EB120C9AB972F0564BE /* PBXContainerItemProxy */;
+		};
+		45212BF1E760129C3C7581EDE87C57BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cards;
+			target = 95686D88267B7D426C897EA9E91FC217 /* Cards */;
+			targetProxy = 4126CFAF285136695A28183F7E48E761 /* PBXContainerItemProxy */;
+		};
+		5CDB35106512EDC5358A906AE4118DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlicloudUTDID;
+			target = 0883074DEB508458C174DE306B480284 /* AlicloudUTDID */;
+			targetProxy = 2DA48088CCF21C498984F6ED95B10AF6 /* PBXContainerItemProxy */;
+		};
+		694885BFB2976F80A2AAF76D37BF15FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlicloudUT;
+			target = E9E6A901E448660EFF3445A118182C28 /* AlicloudUT */;
+			targetProxy = AFD9D0D8A7E981AF25039A70189D1CFD /* PBXContainerItemProxy */;
+		};
+		719B7593FA9796FB7B885223002B7404 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Player;
+			target = 3566CE7721250363BAE931141A0703B1 /* Player */;
+			targetProxy = 93F91A541B77E708EAEF8E1A141B2043 /* PBXContainerItemProxy */;
+		};
+		A1E1319FB01A9C4693509AC98873AE6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlicloudUT;
+			target = E9E6A901E448660EFF3445A118182C28 /* AlicloudUT */;
+			targetProxy = EF4B90C9AFA6AC7E73503B4CECDBF0C1 /* PBXContainerItemProxy */;
+		};
+		C22E3B660C6FDAB0FCC9C54C914F18D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Comets;
+			target = 125B6FEA16CD0511AAB23164F8FDFACD /* Comets */;
+			targetProxy = FBE53F6F1B6C2001CA15D18B5FEAB44C /* PBXContainerItemProxy */;
+		};
+		D13A56EEB83FB1FA238711AE42D12D49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IMSLog;
+			target = A2A523E6D90FF53AA039C147829BDA15 /* IMSLog */;
+			targetProxy = 90ED5690E47E5A418873356F0DA9E966 /* PBXContainerItemProxy */;
+		};
+		D96EEA7B5128B2D0DC9F5CE6961E32EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IotLinkKit;
+			target = F4FBE466B0DF6B7512E21301739DB3A3 /* IotLinkKit */;
+			targetProxy = 8E70E93B58E3F33B634A438520F89831 /* PBXContainerItemProxy */;
+		};
+		E29665FA91334BADF1DCE1DC43C58437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IMSLog;
+			target = A2A523E6D90FF53AA039C147829BDA15 /* IMSLog */;
+			targetProxy = 38588BAE90C3EFBEDF75A9D99A98D825 /* PBXContainerItemProxy */;
+		};
+		F39928A73767ED69474A03C7DC916704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BulletinBoard;
+			target = 3CBE366D25C3692AAE548A9B678264C8 /* BulletinBoard */;
+			targetProxy = 2BBFBC915347D24692253BB4D6C01CA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		025462EE35CC91B97664BD435BC7ACEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62C05D711396F7E177BB1253184CDDF /* Player.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Player/Player-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/Player/Player.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Player;
+				PRODUCT_NAME = Player;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EA7DB7C85757A9381446A0B90AA91E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC43099D88532C43DCA9BF0965A32F2 /* Pods-远程控制.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-远程控制/Pods-远程控制.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2060550EE9C7EECA7059CE0BCAE9B1FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 889ED3F6AA49CB909CAF8ADE3FAD9ED6 /* AlicloudPush.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2684D21AACA5A81A886FF056D17919F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8C9FFB5453B823599BA1AAA7F053D8B /* IMSLog.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33F9EFDBCC485ADEA36CE91F27283E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 693CCCEC7B4ACE56F933117ED6BBBE81 /* AlicloudUTDID.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43C6E5A70B35B6C3EB2DE54E2A02EB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8FC69E2C1BD17A8E9BA5C805B0A94B /* Cards.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Cards/Cards-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/Cards/Cards.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Cards;
+				PRODUCT_NAME = Cards;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48E66E3055C38C0D7FF4DFF342485EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91B8CC9D1CE6E8CED2FC519B42CC60FD /* AlicloudUtils.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C0D103E9F042EF0DAF22443D2FADE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8FC69E2C1BD17A8E9BA5C805B0A94B /* Cards.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Cards/Cards-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/Cards/Cards.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Cards;
+				PRODUCT_NAME = Cards;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		558B9A2EFAFDCDCFA9532DF72C5378DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 693CCCEC7B4ACE56F933117ED6BBBE81 /* AlicloudUTDID.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57F023C82106705BE304CF14D81F86DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F3C53359F5632E59D18A8197E310E74 /* Comets.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Comets/Comets-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/Comets/Comets.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Comets;
+				PRODUCT_NAME = Comets;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FAF9A2BF7C33F1002000D7497BD1F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C00F051C853AE8AB87B59473C13A6B16 /* AlicloudUT.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A8806E3701E0C962E9384F46A3199AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F3C53359F5632E59D18A8197E310E74 /* Comets.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Comets/Comets-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/Comets/Comets.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Comets;
+				PRODUCT_NAME = Comets;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E596EE4C43C02C33280D505F59C7CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DE233200CFC09CAB12708E08F018E3B /* BulletinBoard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BulletinBoard/BulletinBoard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/BLTNBoard/BulletinBoard.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BLTNBoard;
+				PRODUCT_NAME = BulletinBoard;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84F1F5D6EF1627138658256B7CD7EC77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91B8CC9D1CE6E8CED2FC519B42CC60FD /* AlicloudUtils.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7757F911E142BA8B907BC350465DB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8C9FFB5453B823599BA1AAA7F053D8B /* IMSLog.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7BBB60FAA019E805634F8A8F7BB930A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 779FBA330835D0F08E1EECA3D01BC661 /* Pods-远程控制.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-远程控制/Pods-远程控制.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADECFEEB53FCE88C907FACCC5ECC7A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DE233200CFC09CAB12708E08F018E3B /* BulletinBoard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BulletinBoard/BulletinBoard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/BLTNBoard/BulletinBoard.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BLTNBoard;
+				PRODUCT_NAME = BulletinBoard;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF2CA283D5C19B778CC475670847D27E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE2DAFDF60CF06881191889603E984ED /* IotLinkKit.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1F7871A4C55BF4541D986825D39DE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62C05D711396F7E177BB1253184CDDF /* Player.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Player/Player-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/Player/Player.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Player;
+				PRODUCT_NAME = Player;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B713BA75A200298E5220A289688765BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE2DAFDF60CF06881191889603E984ED /* IotLinkKit.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E21B5B1A8406153E58D5DF8AB29AA5A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 889ED3F6AA49CB909CAF8ADE3FAD9ED6 /* AlicloudPush.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F34576356ED0CF8C9491CE6ED2DBD5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C00F051C853AE8AB87B59473C13A6B16 /* AlicloudUT.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		029CF6993BE1651C70CD791D435DBA13 /* Build configuration list for PBXNativeTarget "Pods-远程控制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BBB60FAA019E805634F8A8F7BB930A /* Debug */,
+				0EA7DB7C85757A9381446A0B90AA91E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		176836D94A34801FF257515CF1A8E5BC /* Build configuration list for PBXAggregateTarget "IMSLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2684D21AACA5A81A886FF056D17919F1 /* Debug */,
+				A7757F911E142BA8B907BC350465DB07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57AF347051620A31F46CBF1E384D4522 /* Build configuration list for PBXAggregateTarget "IotLinkKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2CA283D5C19B778CC475670847D27E /* Debug */,
+				B713BA75A200298E5220A289688765BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61EA0EDCA5361F4B5875E9A64A599651 /* Build configuration list for PBXNativeTarget "Comets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F023C82106705BE304CF14D81F86DC /* Debug */,
+				6A8806E3701E0C962E9384F46A3199AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		698B3C0EBAE5E2CE02E34ECEF1CD88D5 /* Build configuration list for PBXNativeTarget "BulletinBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADECFEEB53FCE88C907FACCC5ECC7A99 /* Debug */,
+				7E596EE4C43C02C33280D505F59C7CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E16BDFF6A5F6C4DEB7F4CB5948D3AE0 /* Build configuration list for PBXAggregateTarget "AlicloudUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F1F5D6EF1627138658256B7CD7EC77 /* Debug */,
+				48E66E3055C38C0D7FF4DFF342485EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7EE695DE857CA0BB8C319CFE95849E9 /* Build configuration list for PBXNativeTarget "Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025462EE35CC91B97664BD435BC7ACEE /* Debug */,
+				B1F7871A4C55BF4541D986825D39DE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C138D03B00C027638492FB16B63B6857 /* Build configuration list for PBXNativeTarget "Cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0D103E9F042EF0DAF22443D2FADE78 /* Debug */,
+				43C6E5A70B35B6C3EB2DE54E2A02EB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4290A39AD5E43D6DBB3E91D47505037 /* Build configuration list for PBXAggregateTarget "AlicloudUTDID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F9EFDBCC485ADEA36CE91F27283E50 /* Debug */,
+				558B9A2EFAFDCDCFA9532DF72C5378DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61CD500370045F7670EE7C401490DD4 /* Build configuration list for PBXAggregateTarget "AlicloudPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21B5B1A8406153E58D5DF8AB29AA5A3 /* Debug */,
+				2060550EE9C7EECA7059CE0BCAE9B1FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7DA03D1821F2E713108689AA4FDA0D8 /* Build configuration list for PBXAggregateTarget "AlicloudUT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FAF9A2BF7C33F1002000D7497BD1F5E /* Debug */,
+				F34576356ED0CF8C9491CE6ED2DBD5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

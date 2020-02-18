@@ -1,0 +1,6 @@
+framework module AlinkIoTExpress {
+  umbrella header "AlinkIoTExpress.h"
+
+  export *
+  module * { export * }
+}

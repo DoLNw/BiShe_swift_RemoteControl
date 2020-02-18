@@ -1,0 +1,6 @@
+framework module IotLinkKit {
+  umbrella header "IotLinkKit.h"
+
+  export *
+  module * { export * }
+}

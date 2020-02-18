@@ -1,0 +1,6 @@
+framework module AlinkMobileGateway {
+  umbrella header "AlinkMobileGateway.h"
+
+  export *
+  module * { export * }
+}

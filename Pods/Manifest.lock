@@ -1,0 +1,54 @@
+PODS:
+  - AlicloudPush (1.9.9.1):
+    - AlicloudUT
+    - AlicloudUtils
+  - AlicloudUT (5.2.0.12):
+    - AlicloudUTDID
+  - AlicloudUTDID (1.1.0.19)
+  - AlicloudUtils (1.3.7):
+    - AlicloudUTDID
+  - BulletinBoard (4.1.0)
+  - Cards (1.4.0):
+    - Player (= 0.13.0)
+  - Comets (0.3.1)
+  - IMSLog (1.0.7)
+  - IotLinkKit (1.2.1):
+    - IMSLog
+  - Player (0.13.0)
+
+DEPENDENCIES:
+  - AlicloudPush (~> 1.9.9)
+  - BulletinBoard
+  - Cards
+  - Comets
+  - IotLinkKit (= 1.2.1)
+
+SPEC REPOS:
+  https://github.com/aliyun/aliyun-specs.git:
+    - AlicloudPush
+    - AlicloudUT
+    - AlicloudUTDID
+    - AlicloudUtils
+    - IMSLog
+    - IotLinkKit
+  https://github.com/CocoaPods/Specs:
+    - BulletinBoard
+    - Cards
+    - Comets
+    - Player
+
+SPEC CHECKSUMS:
+  AlicloudPush: c87e2fae0e3909cad267d9a34379ae865c6b4ea0
+  AlicloudUT: b7673ac4e19b89857a22ca5651880c80525b5650
+  AlicloudUTDID: 79f509c3e997ef85fe307f8bfb2bb3be27f7e205
+  AlicloudUtils: ec441e41aa746d779c2c3958aa9489c59cb434ea
+  BulletinBoard: c774340545b5cfd05a96a89f63b105ecc95c86f9
+  Cards: 45ae6bd0eca7b5e8016d3b6cb30b60b04753f68f
+  Comets: ff75eb4658d612af66073bf9fcf6e8bef274817b
+  IMSLog: d1281158d8c6d2015bc46d060e09d1eee68d8a06
+  IotLinkKit: 509ab45c59359880b6b80124687e670d723c6a8c
+  Player: 968d8d07d923bcdd6f7e4091c9e306eb44a5f7a4
+
+PODFILE CHECKSUM: 84d50fde86fe0d1afaf3d23d8aba339126c3b308
+
+COCOAPODS: 1.8.3
